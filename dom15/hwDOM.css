@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+body {
+  padding: 20px;
+}
+
+.list {
+  margin: 20px 10px;
+}
+
+.item {
+  background-color: #a6c1ee;
+}
+
+#link {
+  margin: 20px 10px;
+  color: red;
+}
+
+.custom-link {
+  color: #006d77;
+}

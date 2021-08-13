@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="style.css">
+		<title>Udemy homework DOM</title>
+	</head>
+	<body>
+		<button
+			id="btn-msg"
+			data-text="Custom message"
+			onmouseenter="handlerMouseHover()"
+			onmouseleave="handlerMouseLeave()"
+			onclick="showMessage()"
+		>
+			Show message
+		</button>
+		
+		<button id="btn-generate" onclick="generateElementLi()">Generate item</button>
+		
+		<p><strong id="tag">Tag:</strong></p>
+		
+		<ul>
+			<li>Item 1</li>
+			<li>Item 2</li>
+		</ul>
+		
+		<script src="dom16.js"></script>
+	</body>
+</html>

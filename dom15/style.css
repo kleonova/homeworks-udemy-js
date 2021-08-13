@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+body {
+  padding: 20px;
+}
+
+ul {
+  margin: 20px;
+}
+
+.new-item {
+  color: #006d77;
+}
+
+.green {
+  background-color: green;
+}
